@@ -26,18 +26,66 @@ public class PhoneManager {
         System.out.println("프로그램을 종료합니다...");
         break;
       }
+      else {
+        Phone2 having = null;
 
-      for (int i = 0; i < phone.length; i++) {
-      }
-        if (search.equals(phone[i].getName())) {
-          System.out.println(phone[i].getName() + "의 번호는 " + phone[i].getTel() + "입니다.");
-          break;
+        for (int i = 0; i < count; i++) {
+          if (phone[i].getName().equals(search)) {
+            having = phone[i];
+            break;
+          }
+          else {
+            having = null;
+         }
         }
-        else if (!search.equals(phone[i].getTel())) {
+
+       if (having != null) {
+         System.out.println(having.getName() + "의 번호는 " + having.getTel() + "입니다.");
+       }
+       else {
           System.out.println(search + "이/가 없습니다.");
-          break;
+       }
       }
+
+
+
+//      for (int i = 0; i < phone.length; i++) {
+//        if (search.equals(phone[i].getName())) {
+//          System.out.println(phone[i].getName() + "의 번호는 " + phone[i].getTel() + "입니다.");
+//          break;
+//        }
+//      }
     }
   }
 }
 
+
+//while (true) {
+//  System.out.print("검색할 이름>>");
+//  String findName = sc.next();
+//
+//  if(findName.equals("exit")) {
+//    System.out.println("프로그램을 종료합니다.");
+//    break;
+//  }
+//  else{
+//    Phone2 having = null;
+//  }
+//
+//  for (Phone2 phone2 : phone2s) {
+//    if (phone2.compareName(findName)) {
+//      having = phone2;
+//      break;
+//    }
+//    else {
+//      having = null;
+//    }
+//  }
+//
+//  if (having != null) {
+//    System.out.println(having.getTel(findName));
+//  }
+//  else {
+//    System.out.println(findName + "이 없습니다.");
+//  }
+//}
