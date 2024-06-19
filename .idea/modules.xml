@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaT/JavaT.iml" filepath="$PROJECT_DIR$/JavaT/JavaT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prac/Prac.iml" filepath="$PROJECT_DIR$/Prac/Prac.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prac/chap4quiz/chap4quiz.iml" filepath="$PROJECT_DIR$/Prac/chap4quiz/chap4quiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz01/quiz01.iml" filepath="$PROJECT_DIR$/JavaT/quiz01/quiz01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz02/quiz02.iml" filepath="$PROJECT_DIR$/JavaT/quiz02/quiz02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz03/quiz03.iml" filepath="$PROJECT_DIR$/JavaT/quiz03/quiz03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz04/quiz04.iml" filepath="$PROJECT_DIR$/JavaT/quiz04/quiz04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz05/quiz05.iml" filepath="$PROJECT_DIR$/JavaT/quiz05/quiz05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz06/quiz06.iml" filepath="$PROJECT_DIR$/JavaT/quiz06/quiz06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz07/quiz07.iml" filepath="$PROJECT_DIR$/JavaT/quiz07/quiz07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz08/quiz08.iml" filepath="$PROJECT_DIR$/JavaT/quiz08/quiz08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz09/quiz09.iml" filepath="$PROJECT_DIR$/JavaT/quiz09/quiz09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaT/quiz10/quiz10.iml" filepath="$PROJECT_DIR$/JavaT/quiz10/quiz10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prac/quiz184p/quiz184p.iml" filepath="$PROJECT_DIR$/Prac/quiz184p/quiz184p.iml" />
       <module fileurl="file://$PROJECT_DIR$/study02/study02.iml" filepath="$PROJECT_DIR$/study02/study02.iml" />
       <module fileurl="file://$PROJECT_DIR$/study03/study03.iml" filepath="$PROJECT_DIR$/study03/study03.iml" />

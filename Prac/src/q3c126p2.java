@@ -12,7 +12,7 @@ public class q3c126p2 {
       a[i] = sc.nextInt();
     }
     for (int i = 0; i < a.length; i++) {
-      if (a[i] % 3 == 0 && a[i] != 0) {
+      if (a[i] % 3 == 0) {
         System.out.print(a[i]);
       }
     }

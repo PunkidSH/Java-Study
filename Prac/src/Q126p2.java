@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Q126p2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("정수 10개 입력>>");
+        System.out.print("정수 10개 입력 >> ");
 
         int[] arr1 = new int[10];
 

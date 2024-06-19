@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PhoneManager {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("인원수>> ");
+    System.out.print("인원수 >> ");
     int count = sc.nextInt();
     Phone2[] phone = new Phone2[count];
 
@@ -27,23 +27,23 @@ public class PhoneManager {
         break;
       }
       else {
-        Phone2 having = null;
+        Phone2 check = null;
 
         for (int i = 0; i < count; i++) {
           if (phone[i].getName().equals(search)) {
-            having = phone[i];
+            check = phone[i];
             break;
           }
           else {
-            having = null;
+            check = null;
          }
         }
 
-       if (having != null) {
-         System.out.println(having.getName() + "의 번호는 " + having.getTel() + "입니다.");
+       if (check != null) {
+         System.out.println(check.getName() + "의 번호는 " + check.getTel() + "입니다.");
        }
        else {
-          System.out.println(search + "이/가 없습니다.");
+          System.out.println(search + "은(는) 없습니다.");
        }
       }
 
